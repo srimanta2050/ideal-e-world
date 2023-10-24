@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+
+        <button class="btn" onclick="filterSelection('cars')">
+          <div class="categories"><img src=></div>
+          <div class="name">cars</div>
+         </button>
+
+        <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+        <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+      </div>
+      <div class="container">
+        <div class="filterDiv cars">
+        <div class="product"><img src=></div>
+        <div class="name">cars</div>
+      </div>
+        <div class="filterDiv colors fruits">Orange</div>
+        <div class="filterDiv cars">Volvo</div>
+        <div class="filterDiv colors">Red</div>
+        <div class="filterDiv cars">Ford</div>
+        <div class="filterDiv colors">Blue</div>
+        <div class="filterDiv animals">Cat</div>
+        <div class="filterDiv animals">Dog</div>
+        <div class="filterDiv fruits">Melon</div>
+        <div class="filterDiv fruits animals">Kiwi</div>
+        <div class="filterDiv fruits">Banana</div>
+        <div class="filterDiv fruits">Lemon</div>
+        <div class="filterDiv animals">Cow</div>
+      </div>
+            
+</body>
+    <script src="scripts.js"></script>
+</html>
