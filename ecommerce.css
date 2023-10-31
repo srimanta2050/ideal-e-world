@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 60px;
+    height: 100px;
     width: 100%;
     background: black;
   }
@@ -17,7 +17,7 @@
   .logo a {
     color: white;
     transition-duration: 1s;
-    font-weight: 800;
+    font-weight: 400;
   }
   .logo a:hover {
     color: rgb(240, 197, 6);
@@ -29,11 +29,11 @@
   .heading ul li a {
     margin: 5px;
     text-decoration: none;
-    color: black;
+    color: hsl(0, 79%, 45%);
     font-weight: 500;
     position: relative;
     color: white;
-    margin: 2px 14px;
+    margin: 20px 60px;
     font-size: 18px;
     transition-duration: 1s;
   }
@@ -61,22 +61,25 @@
     background-color: rgb(243, 168, 7);
   }
   #input {
-    height: 30px;
-    width: 300px;
-    text-decoration: none;
+    height: 800px;
+    width: 400px;
+    text-align: left;
+
     border: 0px;
     padding: 5px;
   }
   .logo a {
     color: white;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 500;
     text-decoration: none;
   }
   ion-icon {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     background-color: white;
+    float: left;
+    text-align: left;
     color: black;
   }
   ion-icon:hover {
@@ -87,7 +90,7 @@
   }
   header a ion-icon {
     position: relative;
-    right: 3px;
+  left: -450px;
   }
   
   .img-slider img {
@@ -149,7 +152,10 @@
   }
   .search {
     display: flex;
-    position: relative;
+    text-align: center;
+    border-bottom:10 ;
+    width: 20px;
+    height: 15px;
   }
   .section1 {
     width: 1080px;
@@ -170,18 +176,18 @@
   }
   .section2 .container .items {
     margin: 10px;
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 500px;
     background-color: white;
     border: 2.5px solid black;
     border-radius: 12px;
   }
   .section2 .container .items .name {
     text-align: center;
-    background-color: rgb(240, 197, 6);
-    height: 25px;
+    background-color: rgb(231, 59, 37);
+    height: 43px;
     padding-top: 4px;
-    color: white;
+    color: rgba(19, 10, 10, 0.89);
     margin: 0;
   }
   .section2 .container .items .price {
@@ -197,8 +203,8 @@
     color: rgb(243, 168, 7);
   }
   .section2 .container .items .img img {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 450px;
     margin: 0;
     padding: 0;
     border-radius: 12px;
