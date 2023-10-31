@@ -1,15 +1,12 @@
+*{margin: 0px;
+padding: 0px;}
+
 .container {
     overflow: hidden;
   }
   
   .filterDiv {
-    float: left;
-    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
+    
     display: none; /* Hidden by default */
   }
   
@@ -37,3 +34,49 @@
     background-color: #666;
     color: white;
   }
+  .section2 .container {
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    margin: 50px 0;
+  }
+ 
+  .filterDiv:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+
+
+  }
+  .info {
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    background-color: #fbff00;
+  }
+h1{
+  color: yellow;
+  height: 40px;
+  background-color: blueviolet;
+}
+h4{
+  color: #160d01;
+  width: 220px;
+  height: 100px;
+  text-align: left;
+  margin-left: 20px;
+
+
+}
+.name{
+  background-color: #7df5bd;
+  width: 250px;
+  margin-left: 4px;
+}
+.price{
+  width: 250px;
+  text-align: center;
+}
