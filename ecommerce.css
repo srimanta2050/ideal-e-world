@@ -474,9 +474,3 @@
     .close {
       z-index: 34;
     }
-  
-    .search a {
-      display: flex;
-      flex-wrap: nowrap;
-    }
-  }
