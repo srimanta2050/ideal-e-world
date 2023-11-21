@@ -1,4 +1,3 @@
-alart("image/mobility/BATTERY/ERD BL5C.jpeg");
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
