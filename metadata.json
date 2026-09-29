@@ -1,0 +1,6 @@
+{
+  "name": "Ideal-e-World",
+  "description": "Ideal-e-World multi-service retail store app featuring Electronics, Fashion House, Mobile Connections & Offers, LIC Policies, and Online Banking Services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
